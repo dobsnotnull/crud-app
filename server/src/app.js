@@ -4,9 +4,8 @@ const app = express();
 
 app.use(express.json());
 
-// Endpoint created
 app.get("/", (req, res) => {
-  res.json({ message: "API running..." });
+  res.json({ message: "api running..." });
 });
 
 module.exports = app;
